@@ -103,8 +103,10 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 ## 📋 Etapa 6 - Criar App no ArgoCD
 
--   NEW APP
+-   Clique em -> `NEW APP`
+-   Name: `online-boutique`
 -   Repo: `https://github.com/<seu-usuario>/gitops-microservices`
+-   Revision: `HEAD`
 -   Path: `k8s`
 -   Cluster: `https://kubernetes.default.svc`
 -   Namespace: `default`
