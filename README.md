@@ -37,13 +37,6 @@ PowerShell ou no WSL.
 
 ---
 
-## 🔍 Pré-requisitos
-
--   Windows 11
--   GitHub
--   Internet
--   (Opcional) WSL2 ativado
-
 ## 🛠️ Etapa 0 - Preparar Windows (WSL2)
 
 ``` powershell
